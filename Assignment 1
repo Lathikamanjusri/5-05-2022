@@ -1,0 +1,12 @@
+s={1:['asdf', 'male', 'mccs', 'o'],2:['fgh', 'female','mpcs', 'a'],3:['ghjk', 'male', 'mpc', 'a'],4:['dfgh', 'male','mecs','a']} 
+r=int(input('enter sno:')) 
+print('name of the student:',s[r][0]) 
+print('gender:',s[r][1]) 
+print('group:',s[r][2]) 
+print('result',s[r][3]) 
+Output: 
+enter sno:1 
+name of the student:asdf  
+gender:male 
+group:mccs 
+result:o
